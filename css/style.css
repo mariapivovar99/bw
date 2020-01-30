@@ -65,7 +65,6 @@ body .grey h4, body .black h4{
     line-height: 95px;
     margin-bottom: 4px;
 }
-
 .square{
     background-color: black;
     width: 210px;
@@ -73,7 +72,6 @@ body .grey h4, body .black h4{
     margin: 25px 15px 25px 0;
     display: inline-block;
 }
-
 section h2{
     vertical-align: top;
     font-family: 'Myriad Pro', cursive;
@@ -99,7 +97,6 @@ section article span{
     font-size: 18px;
     display: block;
 }
-
 .flex-block span{
     font-size: 16px;
 }
@@ -108,7 +105,6 @@ section article span{
     text-transform: uppercase;
     font-family: 'Myriad Pro', cursive;
 }
-
 .flex-container{
     display: flex;
     justify-content: space-between;
@@ -120,31 +116,29 @@ section article span{
     margin-bottom: 25px;
 }
 
-/*.square-2{*/
-/*    background-color: black;*/
-/*    width: 120px;*/
-/*    height: 120px;*/
-/*    display: inline-block;*/
-/*}*/
-
 .flex-block-2 span{
     font-size: 18px;
     font-family: 'Oswald', cursive;
 }
 .flex-block-2 span:first-of-type{
     font-size: 24px;
+    padding-top: 30px;
 }
-
 .flex-container-2{
     display: flex;
     justify-content: space-between;
 }
 .flex-block-2{
-    display: inline-block;
     flex-basis: 152px;
-    margin-top: 30px;
     margin-bottom: 50px;
 }
+.flex-container-2 h4{
+    font-size: 24px;
+    font-family: 'Myriad Pro', cursive;
+    position: relative;
+    top: 50px;
+}
+
 
 
 footer .logo{
