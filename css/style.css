@@ -110,6 +110,7 @@ section article span:first-of-type{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    position: relative;
 }
 .flex-block{
     width: 25%;
@@ -127,7 +128,7 @@ section article span:first-of-type{
     width: 75%;
     height: 1px;
     background-color: black;
-    position: relative;
+    position: absolute;
     top: 100px;
     left: 80px;
 }
