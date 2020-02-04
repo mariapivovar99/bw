@@ -30,19 +30,19 @@
     max-width: 840px;
     margin: auto;
 }
-header h2{
+header h3{
     font-size: 30px;
     color: black;
     line-height: 95px;
     text-transform: uppercase;
     font-family: 'Myriad Pro', cursive;
 }
-body .grey h1, body .black h1{
+body .grey h2, body .black h2{
     font-family: 'Myriad Pro', cursive;
     display: inline-block;
     font-size: 48px;
 }
-body .grey h4, body .black h4{
+body .grey h5, body .black h5{
     font-family: 'Oswald', cursive;
     text-transform: uppercase;
     display: inline-block;
@@ -72,20 +72,21 @@ body .grey h4, body .black h4{
     margin: 25px 15px 25px 0;
     display: inline-block;
 }
-section h2{
+section h3{
     vertical-align: top;
     font-family: 'Myriad Pro', cursive;
     display: inline-block;
     font-size: 48px;
     line-height: 95px;
     padding: 25px 0;
+    margin-right: 40px;
 }
 .block{
     display: inline-block;
     vertical-align: top;
     padding: 50px 0 0 38px;
 }
-h3{
+h4{
     vertical-align: top;
     font-family: 'Oswald', cursive;
     display: inline-block;
@@ -99,8 +100,9 @@ section article span{
 }
 section article span:first-of-type{
     font-size: 24px;
+    line-height: 45px;
 }
-.flex-container h4{
+.flex-container h5{
     font-size: 24px;
     font-family: 'Myriad Pro', cursive;
     position: relative;
@@ -116,12 +118,14 @@ section article span:first-of-type{
     width: 25%;
     margin-top: 35px;
     margin-bottom: 25px;
+    position: relative;
+    z-index: 2;
 }
 .flex-block:first-child{
     width: 17%;
 }
 .flex-block img{
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 .flex-container:after{
     content: '';
@@ -131,8 +135,14 @@ section article span:first-of-type{
     position: absolute;
     top: 100px;
     left: 80px;
+    z-index: -1;
 }
-
+.first.flex-container:after {
+    display: none;
+}
+footer{
+    padding-top: 75px;
+}
 footer .logo{
     width: 210px;
     height: 210px;
@@ -144,7 +154,7 @@ footer .logo{
 footer .logo a img{
     padding: 95px 0;
 }
-footer h2{
+footer h3{
     vertical-align: top;
     font-family: 'Myriad Pro', cursive;
     display: inline-block;
@@ -152,7 +162,7 @@ footer h2{
     line-height: 95px;
     padding: 25px 0;
 }
-footer h3{
+footer h4{
     vertical-align: top;
     font-family: 'Oswald', cursive;
     display: inline-block;
